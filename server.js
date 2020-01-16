@@ -28,7 +28,7 @@ app.get('/', function (req, res) {
 
 
 //mysql configuration - Gamification project mysql connect details
-var mysqlHost = process.env.OPENSHIFT_MYSQL_DB_HOST || 'custom-mysql.gamification.svc.cluster.local';
+var mysqlHost = process.env.OPENSHIFT_MYSQL_DB_HOST || '172.30.55.117';
 var mysqlPort = process.env.OPENSHIFT_MYSQL_DB_PORT || 3306;
 var mysqlUser = 'xxuser'; 
 var mysqlPass = 'welcome1';
